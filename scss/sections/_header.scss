@@ -1,5 +1,26 @@
-.header{
-    height: 100px;
-    background-color:$orangeTextColor;
-    
+.header{    
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        padding: 20.5px 0;
+    }
+}
+
+.menu {
+    &__list {
+        display: flex;
+        column-gap: 64px;
+    }
+    &__item {
+    }
+}
+.link-anchor {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+.logo {
+
 }

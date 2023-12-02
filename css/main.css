@@ -14,6 +14,7 @@
 /* Links */
 a, a:link, a:visited {
   text-decoration: none;
+  color: inherit;
 }
 
 a:hover {
@@ -171,7 +172,25 @@ select:-webkit-autofill:focus {
   transition: background-color 5000s ease-in-out 0s;
 }
 
-.header {
-  height: 100px;
-  background-color: #C4E7D4;
+body {
+  background-color: #46374e;
+  font-family: "Inconsolata", monospace;
+  color: #F0E3CA;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20.5px 0;
+}
+
+.menu__list {
+  display: flex;
+  -moz-column-gap: 64px;
+       column-gap: 64px;
+}
+.link-anchor {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
 }/*# sourceMappingURL=main.css.map */
