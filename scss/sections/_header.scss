@@ -11,7 +11,10 @@
         display: flex;
         column-gap: 64px;
     }
-    &__item {
+    &__item {        
+        @include item-hover($logoColor);
+
+        @include item-active($titleColor);
     }
 }
 .link-anchor {

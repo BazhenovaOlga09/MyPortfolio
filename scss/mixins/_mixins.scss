@@ -1,0 +1,12 @@
+@mixin item-hover($color){
+    &:hover {
+        color:$color;
+    }  
+}
+
+@mixin item-active($color){
+    &:active {
+
+        color:$color;
+    }
+}
