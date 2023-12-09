@@ -1,0 +1,32 @@
+.avatar{
+    width: 629px;
+    height: 575px;
+    position: relative;
+
+    &__items {
+        width: 370px;
+        height: 370px;
+        border-radius: 54% 74% 65% 93% / 64% 94% 56% 79%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+    .avatar__items--second{
+        transform: translate(-50%, -50%) rotate(45deg);
+        background-color: $logoColor;
+
+    }
+    .avatar__items--third{
+        transform: translate(-50%, -50%) rotate(90deg);
+        background-color: $secondBgColor;
+    }
+
+    &__items--photo {
+        overflow: hidden;
+        z-index: 3;
+    }
+    
+
+}
