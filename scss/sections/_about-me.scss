@@ -1,0 +1,40 @@
+.about-me{
+    padding: 64px 0 64px;
+
+    &__content{
+        display: flex;
+        justify-content: center;
+        column-gap: 32px;
+        align-items: center;
+    }
+    &__images{
+        position: relative;
+        width: 100px;
+        height: 100px;
+    }
+
+    &__image{
+        position: absolute;
+        width: 72px;
+        height: 72px;
+        border-radius: 54% 74% 65% 93% / 64% 94% 56% 79%;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    &__text{
+        max-width: 904px;
+        font-size: 24px;
+    }
+
+    &__image--first{
+        transform: translate(-50%, -50%) rotate(110deg);
+        background-color: $logoColor;
+    }
+    &__image--second{
+        background-color: $secondBgColor;
+        transform-origin: center;
+    }
+}

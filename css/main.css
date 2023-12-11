@@ -214,6 +214,43 @@ body {
   align-items: center;
 }
 
+.about-me {
+  padding: 64px 0 64px;
+}
+.about-me__content {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  align-items: center;
+}
+.about-me__images {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.about-me__image {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  border-radius: 54% 74% 65% 93%/64% 94% 56% 79%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.about-me__text {
+  max-width: 904px;
+  font-size: 24px;
+}
+.about-me__image--first {
+  transform: translate(-50%, -50%) rotate(110deg);
+  background-color: #72B590;
+}
+.about-me__image--second {
+  background-color: #8f96a3;
+  transform-origin: center;
+}
+
 .author {
   max-width: 448px;
 }
