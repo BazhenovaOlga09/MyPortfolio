@@ -26,14 +26,24 @@
         max-width: 128px;
         max-height: 128px;
     }
-
+    &__icon{
+        fill:$mainTextColor;
+        transition: 0.5s;
+    }
     &__button{
         padding: 3px 5px;
-        border: 2px solid #fff;
+        border: 2px solid transparent;
         border-radius: 8px;
         font-family: Arial;
         font-size: 32px;
         min-width: 164px;
+        transition: 0.5s;
+    }
+
+    
+    &--html{
+        
+        @include skill-card($htmlColor)
     }
 }
 

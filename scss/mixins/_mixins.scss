@@ -10,3 +10,15 @@
         color:$color;
     }
 }
+
+@mixin skill-card($color){
+    &:hover{
+        .skill-card__icon{
+            fill: $color;
+        }
+
+        .skill-card__button{
+            border-color: $color;
+        }
+    }
+}

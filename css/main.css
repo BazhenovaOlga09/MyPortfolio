@@ -273,13 +273,24 @@ body {
   max-width: 128px;
   max-height: 128px;
 }
+.skill-card__icon {
+  fill: #F0E3CA;
+  transition: 0.5s;
+}
 .skill-card__button {
   padding: 3px 5px;
-  border: 2px solid #fff;
+  border: 2px solid transparent;
   border-radius: 8px;
   font-family: Arial;
   font-size: 32px;
   min-width: 164px;
+  transition: 0.5s;
+}
+.skill-card--html:hover .skill-card__icon {
+  fill: #FC490B;
+}
+.skill-card--html:hover .skill-card__button {
+  border-color: #FC490B;
 }
 
 .row-cards {
