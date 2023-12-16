@@ -42,8 +42,9 @@ img {
 }
 
 img, svg {
-	max-width: 100%;
-	height: auto;
+   width: 100%;
+	height: 100%;
+   object-fit: cover;
 }
 
 address {
@@ -66,8 +67,8 @@ input::-ms-clear {
 button, input[type="submit"] {
    display: inline-block;
    box-shadow: none;
-   background-color: transparent;
-   background: none;
+   // background-color: transparent;
+   // background: none;
    cursor: pointer;
 }
 
